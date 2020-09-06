@@ -20,7 +20,7 @@ spec:
                 source: demo
         spec:
             containers:
-                -   image: 702037529261.dkr.ecr.us-west-2.amazonaws.com/shinobi
+                -   image: 702037529261.dkr.ecr.us-west-2.amazonaws.com/shinobi-microservice
                     name: shinobi-microservice
                     ports:
                         -   name: web
